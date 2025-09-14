@@ -78,7 +78,7 @@ AreaCalculator.prototype.sum = function() {
 Square.prototype.area = function() {
 	return Math.pow(this.length, 2);
 }
-Circle.prototype.sum = function() {
+Circle.prototype.area = function() {
 	return Math.PI * Math.pow(this.radius, 2);
 }
 AreaCalculator.prototype.sum = function() {
