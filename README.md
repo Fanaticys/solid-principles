@@ -56,7 +56,7 @@ output.rude();
 // can now add new features easily without altering AreaCalculator!!!
 ```
 ## Open/Closed principle
-You should be able to extend a class without modifying it.
+Extend behavior by adding code, not by editing what already works.
 
 **Wrong**
 ```
